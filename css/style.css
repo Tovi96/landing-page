@@ -3,6 +3,8 @@ body {
     Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
     margin: 0;
     padding 0;
+    display: flex;
+    flex-direction: column;
 }
 
 /* beginning first section */
@@ -12,15 +14,16 @@ body {
     background-color: #1f2937;
     display: flex;
     flex-direction: column;
-    margin:auto;
     padding: 20px;
-
+    flex:1;
+    flex-wrap: wrap;
 }
 
 .header, .f-main{
     width: 1200px;
     margin:auto;
     flex:auto;
+    flex-wrap: wrap;
 }
 
 
@@ -96,6 +99,7 @@ body {
 .second {
     display: flex;
     flex-direction: column;
+    flex:1;
 }
 
 .s-container {
@@ -143,6 +147,7 @@ body {
     background-color: #e5e7eb;
     padding: 80px;
     gap: 40px;
+    flex:1;
 }
 
 .third p{
@@ -173,6 +178,7 @@ body {
     display: flex;
     justify-content: center;
     padding: 100px 400px;
+    flex:1;
 }
 
 .fo-container {
@@ -210,4 +216,5 @@ footer {
     color: #E5E7EB;
     text-align: center;
     padding: 15px;
+    flex-shrink: 0;
 }
