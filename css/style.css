@@ -5,21 +5,21 @@ body {
 
 /* beginning first section */
 
-.f-back{
-    background-color: #1f2937;
-    padding-left: 250px;
-    padding-right: 250px;
-}
 
 .first {
     background-color: #1f2937;
     display: flex;
     flex-direction: column;
-    width: 1200px;
     margin:auto;
     padding: 20px;
     margin:auto
 
+}
+
+.header, .f-main{
+    width: 1200px;
+    margin:auto;
+    flex:auto;
 }
 
 
@@ -90,6 +90,8 @@ body {
 
 /* end first section */
 
+/* begin second section */
+
 .second {
     display: flex;
     flex-direction: column;
@@ -127,4 +129,33 @@ body {
 
 .s-text {
     margin-bottom: 80px;
+}
+
+/* end second section */
+
+.third {
+    display: flex;
+    flex-direction: column;
+    background-color: #e5e7eb;
+    padding: 80px;
+    gap: 40px;
+}
+
+.third p{
+    width: 800px;
+    margin: auto;
+}
+
+.quote {
+    font-size: 36px;
+    font-weight: lighter;
+    color: #1f2937;
+    text-align: center;
+}
+
+.name {
+    text-align: end;
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 900;
 }
