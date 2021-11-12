@@ -5,6 +5,7 @@ body {
     padding 0;
     display: flex;
     flex-direction: column;
+    justify-content: center;
 }
 
 /* beginning first section */
@@ -17,19 +18,35 @@ body {
     padding: 20px;
     flex:1;
     flex-wrap: wrap;
+    justify-content: center;
+
 }
 
-.header, .f-main{
-    width: 1200px;
-    margin:auto;
-    flex:auto;
+ .f-main{
+    max-width: 1440px;
+    margin: auto;
+    flex:1;
     flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+    gap: 80px;  
+}
+
+.header {
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 120px;
+    
 }
 
 
 .logo-text {
     font-size: 24px;
     color: #f9faf8;
+    text-align: left;
+    
 }
 
 .main-text {
@@ -53,20 +70,13 @@ body {
     margin: 0;
     display: flex;
     gap: 17px;
-
+    flex-wrap: wrap;
 }
 
-.header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-bottom: 120px;
-}
+
 
 .f-main{
-    display: flex;
-    justify-content: center;
-    gap: 80px;
+    
 }
 
 .f-main div{
@@ -106,12 +116,14 @@ body {
     display:flex;
     justify-content: center;
     text-align: center;
+    flex-wrap: wrap;
 }
 .combo {
     display: flex;
     flex-direction: column;
     align-items: center;
     width: 250px;
+    flex-wrap: wrap;
 }
 
 .information-text {
@@ -151,7 +163,7 @@ body {
 }
 
 .third p{
-    width: 800px;
+    max-width: 1440px;
     margin: auto;
 }
 
@@ -177,23 +189,23 @@ body {
 .fourth {
     display: flex;
     justify-content: center;
-    padding: 100px 400px;
-    flex:1;
+    flex: 1;
 }
 
 .fo-container {
     display: flex;
-    width: 1000px;
+    max-width: 1000px;
     background-color: #3882f6;
-    justify-content: center;
+    justify-content: space-around;
     border-radius: 10px;
     padding: 10px 50px;
-    gap: 150px;
     align-items: center;
+    margin:100px 400px;
 }
 
 .fo-text {
-    color:#E5E7EB
+    color:#E5E7EB;
+    margin-right: 20px;
 }
 
 .fo-tittle {
